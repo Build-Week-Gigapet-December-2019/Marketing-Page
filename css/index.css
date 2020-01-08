@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 nav {
   text-align: center;
 }
@@ -36,7 +35,7 @@ nav {
 button {
   padding: 1rem;
   margin: 1rem;
-=======
+}
 * {
   box-sizing: border-box;
 }
@@ -69,5 +68,4 @@ body {
   flex-wrap: wrap;
   width: 100%;
   margin: 10px;
->>>>>>> 5171810de34d5d5d8a1a1b8523183ee81e25f021
 }
