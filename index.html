@@ -5,35 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        home
-        about
-        sign up
-        log in 
-
-    </nav>
-    <h1>gigapet</h1>
-    <h1>insert slogan here</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <h1 id="name">gigapet</h1>
+    <h1 id="slogan">insert slogan here</h1>
     <div id="CTA">
         <h1>get your child to start eating healthy today</h1>
         <button>lets get started</button>
     </div>
-    <div id="how it works">
+    <div id="howitworks">
         <h1>how it works</h1>
-        <div>
-            <h2>log the food your child eats</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam, ex ipsam minima illum laborum, repellat praesentium, dolores tenetur voluptas corrupti quaerat aliquid facilis at ab quam eligendi officia itaque.</h3>
+        <div id="steps">
+            <div id="step1">
+                <h2>log the food your child eats</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam, ex ipsam minima illum laborum, repellat praesentium, dolores tenetur voluptas corrupti quaerat aliquid facilis at ab quam eligendi officia itaque.</h3>
+            </div>
+            <div id="step2">
+                <h2>your child observes the gigapet's reaction</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio modi nemo sequi? Ad hic aliquam quos delectus aut, commodi atque assumenda doloribus, iusto quidem, sit distinctio quo. Perspiciatis, pariatur.</h3>
+            </div>
         </div>
-        <div>
-            <h2>your child observes the gigapet's reaction</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio modi nemo sequi? Ad hic aliquam quos delectus aut, commodi atque assumenda doloribus, iusto quidem, sit distinctio quo. Perspiciatis, pariatur.</h3>
-        </div>
-        <button>lets get started</button>
+        
+        <button id="button">lets get started</button>
     </div>
-    <div id="why gigapet">
+    <div id="whygigapet">
         <h1>why gigapet?</h1>
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur amet illum quas laudantium corrupti sequi eius reiciendis saepe. Soluta modi dolore, repellendus tempora dignissimos id! Voluptatem obcaecati necessitatibus esse?</h3>
         <button>find out more</button>
