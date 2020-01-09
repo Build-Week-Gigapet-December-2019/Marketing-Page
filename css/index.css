@@ -39,6 +39,13 @@ nav {
 button {
   padding: 1rem;
   margin: 1rem;
+  border: solid #063f06;
+  border-radius: 10px;
+  background-color: #137e13;
+  color: white;
+}
+button:hover {
+  background-color: #2bbb2b;
 }
 * {
   box-sizing: border-box;
@@ -54,6 +61,9 @@ body {
 #gigapet {
   color: white;
   text-align: right;
+}
+body {
+  color: #085429;
 }
 .name {
   display: flex;
@@ -71,7 +81,7 @@ body {
 }
 #topimage {
   width: 100%;
-  height: auto;
+  height: 50%;
   margin-top: 1rem;
 }
 .about-top {
