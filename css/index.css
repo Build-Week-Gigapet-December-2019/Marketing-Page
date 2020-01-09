@@ -21,16 +21,20 @@ nav {
   display: flex;
 }
 #step1 {
-  border: solid;
+  border: solid #063f06;
   border-radius: 1cm;
   margin: 1rem;
   padding: 1rem;
+  background-color: #137e13;
+  color: white;
 }
 #step2 {
-  border: solid;
+  border: solid #063f06;
   border-radius: 1cm;
   margin: 1rem;
   padding: 1rem;
+  background-color: #137e13;
+  color: white;
 }
 button {
   padding: 1rem;
@@ -63,6 +67,11 @@ body {
   border: 2px solid black;
   margin: 10px 200px;
   justify-content: center;
+}
+#topimage {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
 }
 .about-top {
   display: flex;
