@@ -12,8 +12,10 @@ body {
 .info {
     padding: 10px 25px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 30px 200px;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 30px auto;
     justify-content: center;
     border: solid rgb(6, 63, 6);
     border-radius: 1cm;
@@ -35,7 +37,8 @@ body {
 
 .container-about {
     display: flex;
-
+    width: 95%;
+    margin: 0 auto;
     flex-direction: column;
 
    
@@ -43,25 +46,46 @@ body {
 
 .about-top {
     display: flex;
-
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    .person {
+      width: 20%;
+      #picture {
+        max-width: 100%;
+      }
+    }
 }
 
 .about-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    .person {
+      width: 30%;
+      #picture {
+        max-width: 100%;
+      }
+}}
+@media screen and (max-width:600px) {
+  .about-top, .about-bottom {
+    flex-direction: column;
+    .person {
+      flex-direction: row;
+      width: 90%;
+      margin: 1rem auto;
+    }
+  }
+  //.container-about {
+    //align-items: center;
+    
+  //}
 }
-
 p {
     display: flex;
 }
 
 .person {
-    margin: 5%;
+    
     text-align: center;
-    padding: 5px;
-
-    //height: 400px;
-    width: 100%;
 
     border: solid rgb(6, 63, 6);
     border-radius: 1cm;

@@ -20,6 +20,12 @@ nav {
 #steps {
   display: flex;
 }
+@media (max-width: 600px) {
+  #steps {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #step1 {
   border: solid #063f06;
   border-radius: 1cm;
@@ -73,8 +79,10 @@ body {
 .info {
   padding: 10px 25px;
   display: flex;
-  flex-wrap: wrap;
-  margin: 30px 200px;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: 30px auto;
   justify-content: center;
   border: solid #063f06;
   border-radius: 1cm;
@@ -93,26 +101,48 @@ body {
 }
 .container-about {
   display: flex;
-
+  width: 95%;
+  margin: 0 auto;
   flex-direction: column;
-
- 
 }
 .about-top {
   display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.about-top .person {
+  width: 20%;
+}
+.about-top .person #picture {
+  max-width: 100%;
 }
 .about-bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+.about-bottom .person {
+  width: 30%;
+}
+.about-bottom .person #picture {
+  max-width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .about-top,
+  .about-bottom {
+    flex-direction: column;
+  }
+  .about-top .person,
+  .about-bottom .person {
+    flex-direction: row;
+    width: 90%;
+    margin: 1rem auto;
+  }
 }
 p {
   display: flex;
 }
 .person {
-  margin: 5%;
   text-align: center;
-  padding: 5px;
-  width: 100%;
   border: solid #063f06;
   border-radius: 1cm;
   background-color: #137e13;
