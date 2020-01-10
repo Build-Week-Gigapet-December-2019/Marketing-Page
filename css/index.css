@@ -92,6 +92,12 @@ body {
   height: 50%;
   margin-top: 1rem;
 }
+@media (max-width: 600px) {
+  #steps {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container-about {
   display: flex;
   flex-wrap: wrap;
