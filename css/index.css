@@ -100,7 +100,7 @@ body {
 }
 .container-about {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .about-top {
   display: flex;
@@ -113,8 +113,7 @@ body {
   margin: 5%;
   text-align: center;
   padding: 5px;
-  height: 400px;
-  width: 250px;
+  width: 100%;
   border: solid #063f06;
   border-radius: 1cm;
   background-color: #137e13;
