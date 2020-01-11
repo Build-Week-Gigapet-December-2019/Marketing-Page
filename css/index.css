@@ -24,6 +24,7 @@ nav {
   #steps {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 #step1 {
@@ -32,6 +33,7 @@ nav {
   margin: 1rem;
   padding: 1rem;
   background-color: #137e13;
+  width: 50%;
   color: white;
 }
 #step2 {
@@ -41,6 +43,7 @@ nav {
   padding: 1rem;
   background-color: #137e13;
   color: white;
+  width: 50%;
 }
 button {
   padding: 1rem;
